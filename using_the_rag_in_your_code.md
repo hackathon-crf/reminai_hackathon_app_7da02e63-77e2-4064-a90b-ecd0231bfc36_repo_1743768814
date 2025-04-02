@@ -1,4 +1,4 @@
-n# Integrating the ForgeAI RAG API into Your Application
+# Integrating the ForgeAI RAG API into Your Application
 
 This guide explains the logic behind the ForgeAI RAG (Retrieval-Augmented Generation) API and demonstrates how to use its key features within your FastAPI backend to build applications that can answer questions based on provided documents.
 
