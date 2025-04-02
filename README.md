@@ -26,6 +26,8 @@ To work on the application, you need to set it up on your local machine first.
         cd <repository-directory-name>
         ```
 
+If you want to pull your branch in the container, come see me (Paul)
+
 2.  **Create a Python Virtual Environment:**
     *   It's highly recommended to use a virtual environment to manage dependencies for this project.
     *   Navigate into the cloned repository directory if you haven't already.
