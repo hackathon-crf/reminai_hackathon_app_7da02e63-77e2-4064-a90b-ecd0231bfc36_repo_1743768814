@@ -48,12 +48,11 @@ To work on the application, you need to set it up on your local machine first.
         ```bash
         pip install -r requirements.txt
         ```
-    *   *(Note: Check if there are separate `requirements.txt` files for backend/frontend if applicable and install accordingly).*
 
 4.  **Environment Variables (API Keys, etc.):**
     *   Your application might require API keys or other configuration secrets.
     *   **DO NOT** hardcode secrets directly in your Python files.
-    *   Use environment variables. You can set them in your terminal before running, or use a `.env` file managed by a library like `python-dotenv` (check if it's included in `requirements.txt`).
+    *   Use environment variables. You can set them in your terminal before running, or use a `.env` file managed by a library like `python-dotenv` (it's included in the default_app `requirements.txt`).
     *   Create a `.env` file in the root directory (make sure `.env` is listed in your `.gitignore` file to avoid committing secrets):
         ```.env
         MISTRAL_API_KEY="your_mistral_api_key_here"
