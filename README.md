@@ -13,6 +13,8 @@ Welcome, Hackathon Participants! This document guides you through setting up you
     3.  **Test Locally:** Run both the backend and frontend on your machine to test changes.
     4.  **Push:** Commit and push your changes to your team's designated GitHub repository. The changes pushed to the specific monitored branch will be reflected in your containerized application on the server (check with organizers for branch details).
 
+If you want to pull your branch in the container, come see me (Paul)
+
 ## 2. Setting Up Your Local Development Environment
 
 To work on the application, you need to set it up on your local machine first.
@@ -25,9 +27,7 @@ To work on the application, you need to set it up on your local machine first.
         git clone <your-team-repository-url>
         cd <repository-directory-name>
         ```
-
-If you want to pull your branch in the container, come see me (Paul)
-
+    *   You can also use the Github desktop app of course.
 2.  **Create a Python Virtual Environment:**
     *   It's highly recommended to use a virtual environment to manage dependencies for this project.
     *   Navigate into the cloned repository directory if you haven't already.
