@@ -17,7 +17,7 @@ Need help, clarification, or encountering a blocker? We're here to help! To keep
 Follow these steps carefully to ensure your question is routed correctly:
 
 1.  **Navigate to the Q&A Repository:**
-    *   Go to the **`[Your Org Name]/hackathon-qa`** repository on `github.com`. *(Use the correct link)*
+    *   Go to the **`hackathon-crf/questions-mentor`** repository on `github.com`. *(Use the correct link)*
 
 2.  **Open the Issues Tab:**
     *   Click on the **Issues** tab, usually located near the top of the repository page alongside "Code", "Pull requests", etc.
