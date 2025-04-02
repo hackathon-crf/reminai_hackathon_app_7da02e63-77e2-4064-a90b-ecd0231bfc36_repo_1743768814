@@ -1,5 +1,3 @@
-
-```markdown
 # Monitoring Your Mistral API Token Usage for the Hackathon
 
 During this hackathon, one of the evaluation criteria involves tracking and reporting your team's Mistral API token consumption. This guide explains how to access token usage information from the Mistral API responses and log it into a standard CSV file.
@@ -282,11 +280,3 @@ TimestampUTC,Model,PromptTokens,CompletionTokens,TotalTokens
 *   **Error Handling:** Wrap your API calls in `try...except` blocks to handle potential network issues or API errors gracefully.
 
 By following these steps, you can effectively monitor your Mistral token usage and meet the hackathon requirements. Good luck!
-```
-
-**How to Use:**
-
-1.  Save the content above into a file named `monitoring_mistral_usage.md`.
-2.  Distribute this file to the participating teams.
-3.  Ensure they understand they need to integrate the logging logic (similar to the provided Python examples) into their own codebases wherever they call the Mistral API.
-4.  Remind them to submit the resulting `mistral_usage_log.csv` file as part of their project deliverables.
