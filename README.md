@@ -139,8 +139,7 @@ To work on the application, you need to set it up on your local machine first.
     *   You can also use the Github desktop app of course.
 2.  **Create a Python Virtual Environment:**
     *   It's highly recommended to use a virtual environment to manage dependencies for this project.
-    *   Navigate into the cloned repository directory if you haven't already.
-    *   Create a virtual environment (common methods):
+    *   In the application directory, create a virtual environment (common methods):
         ```bash
         # Using venv (built-in)
         python -m venv venv
