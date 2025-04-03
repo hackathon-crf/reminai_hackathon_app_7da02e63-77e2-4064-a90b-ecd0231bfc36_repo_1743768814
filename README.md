@@ -15,13 +15,13 @@ Welcome, Hackathon Participants! This document guides you through setting up you
 *   [6. ForgeAI GenAI Services](#6-forgeai-genai-services)
 *   [7. Final Tips & Getting Help](#7-final-tips--getting-help)
 
-Other docs: 
+**Important docs:** 
 
 [Additional Doc : Token Monitoring](https://github.com/hackathon-crf/questions-mentor/blob/main/token_monitoring.md)
 
 [Additional Doc : Ask Questions to mentors (Important !!)](https://github.com/hackathon-crf/questions-mentor/blob/main/ask_questions_to_mentors.md)
 
-[Additional Doc : Use the ForgeAI RAG in your code]()
+[Additional Doc : Use the ForgeAI RAG in your code](https://github.com/hackathon-crf/questions-mentor/blob/main/using_the_rag_in_your_code.md)
 
 ---
 
