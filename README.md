@@ -18,7 +18,9 @@ Welcome, Hackathon Participants! This document guides you through setting up you
 Other docs: 
 
 [Additional Doc : Token Monitoring](https://github.com/hackathon-crf/questions-mentor/blob/main/token_monitoring.md)
-[Additional Doc : Ask Questions to mentors (Important !!)]()
+
+[Additional Doc : Ask Questions to mentors (Important !!)](https://github.com/hackathon-crf/questions-mentor/blob/main/ask_questions_to_mentors.md)
+
 [Additional Doc : Use the ForgeAI RAG in your code]()
 
 ---
