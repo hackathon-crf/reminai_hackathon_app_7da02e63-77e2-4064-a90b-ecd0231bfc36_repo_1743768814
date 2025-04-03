@@ -2,6 +2,26 @@
 
 Welcome, Hackathon Participants! This document guides you through setting up your development environment and building your custom application using the ForgeAI Default Application template.
 
+## Table of Contents / Sommaire
+
+*   [1. Overview: Your Application Environment](#1-overview-your-application-environment)
+*   [2. Mandatory Guidelines & Constraints](#2-mandatory-guidelines--constraints)
+*   [3. Development Workflow and Project Structure](#3-development-workflow-and-project-structure)
+*   [4. Setting Up Your Local Development Environment](#4-setting-up-your-local-development-environment)
+*   [5. Understanding the Tech Stack: FastAPI & Streamlit](#5-understanding-the-tech-stack-fastapi--streamlit)
+    *   [FastAPI (Backend)](#fastapi-backend)
+    *   [Streamlit (Frontend)](#streamlit-frontend)
+    *   [How They Interact](#how-they-interact)
+*   [6. ForgeAI GenAI Services](#6-forgeai-genai-services)
+*   [7. Final Tips & Getting Help](#7-final-tips--getting-help)
+
+Other docs: 
+
+[Additional Doc : Token Monitoring]()
+[Additional Doc : ]()
+
+---
+
 ## 1. Overview: Your Application Environment
 
 *   **Server-Side:** Your team's application (including a dedicated chatbot app and RAG app components) runs inside a container on our servers. This container environment is where your final application will be deployed and tested.
@@ -15,7 +35,93 @@ Welcome, Hackathon Participants! This document guides you through setting up you
 
 If you want to pull your branch in the container, come see me (Paul)
 
-## 2. Setting Up Your Local Development Environment
+---
+
+## 2. Mandatory Guidelines & Constraints
+
+**Please adhere strictly to these rules to ensure your application runs correctly in the server environment:**
+
+*   **DO NOT MODIFY Server Arguments:** In `main_back.py` and `main_front.py`, do not change any existing arguments related to server ports, host binding (`host=`), `root_path`, or other server configuration parameters passed during application startup. These are set specifically for the container environment.
+*   **DO NOT MODIFY `start.sh`:** This script is used by the server environment to launch your application correctly. Do not change it.
+*   **DO NOT RENAME/DELETE Existing Directories:** Maintain the existing core directory structure (`backend/`, `frontend/`, etc.). You can *add* new directories inside `backend/` or `frontend/` or at the root level as needed for organization.
+*   **`config.toml` Updates:**
+    *   If you need to add Streamlit configurations to `config.toml`, you *can* do so.
+    *   **Avoid modifying or adding the `[server]` block** if possible.
+    *   If you absolutely must use the `[server]` block, **add it only at the very end of the `config.toml` file** to prevent conflicts with server-side configurations.
+        ```toml
+        # Example: Adding theme changes (OK)
+        [theme]
+        base = "dark"
+        primaryColor = "#FF4B4B"
+
+        # Example: Adding [server] block (ONLY if necessary, ADD AT END)
+        [client]
+        toolbarMode="viewer"
+        # ... other non-server settings ...
+        [theme]
+        base = "light"
+
+        # Add server block last if needed
+        [server]
+        runOnSave = true
+        ```
+*   **Code Placement:** Put your primary backend logic in `backend/` (`routes.py`, `services.py`, `utils.py`) and frontend logic in `frontend/`. The `main_back.py` and `main_front.py` files act as the entry points that load and orchestrate your code from these directories.
+
+---
+
+## 3. Development Workflow and Project Structure
+
+1.  **Understand the Structure:**
+```
+📦 default_app
+ ┣ 📜 main_back.py        # Main FastAPI application file (Important note in Section Mandatory Guidelines)
+ ┣ 📜 main_front.py       # Main Streamlit application file (Important note in Section Mandatory Guidelines)
+ ┣ 📂 backend             # Folder for FastAPI code
+ ┃ ┗ 📂 app
+ ┃   ┣ 📜 back_utils.py   # Utility functions for the backend
+ ┃   ┣ 📜 routes.py       # Defines API endpoints (routers)
+ ┃   ┗ 📜 services.py     # Implements core business logic
+ ┣ 📂 frontend            # Folder for Streamlit UI code
+ ┃ ┣ 📜 main.py           # Defines the UI components and pages
+ ┃ ┗ 📜 middleware.py     # Handles communication between frontend and backend
+ ┣ 📂 logs                # Directory for application logs
+ ┣ 📂 settings            # Configuration settings
+ ┃ ┗ 📜 config.py         # Pydantic settings configuration
+ ┣ 📜 start.sh            # Server-side script to run the application. Do not modify.
+ ┣ 📜 requirements.txt    # Python dependencies
+ ┗ 📜 README.md           # Project documentation and guidelines
+```
+
+2.  **Implement Your Logic:**
+    *   **Backend:** Add new endpoints in `backend/routes.py`, implement the logic in `backend/services.py` or `backend/utils.py`, and ensure the router is included/registered in `main_back.py` if necessary (check existing patterns).
+    *   **Frontend:** Add your Streamlit widgets, logic, and API calls within the `frontend/` folder or directly in `main_front.py`. Structure your UI logically using functions or classes imported into `main_front.py`.
+
+3.  **Run Locally for Testing:**
+    *   You need to run both the backend and frontend simultaneously. Open two separate terminals, both with the virtual environment activated.
+    *   **Terminal 1 (Start FastAPI Backend):**
+        ```bash
+        uvicorn main_back:app --reload --host 0.0.0.0 --port 8000
+        ```
+        *(Check `main_back.py` or `start.sh` if a different command/port is standard)*
+        *   `--reload`: Automatically restarts the server when code changes are detected.
+    *   **Terminal 2 (Start Streamlit Frontend):**
+        ```bash
+        streamlit run main_front.py
+        ```
+        *(Streamlit usually runs on port 8501 by default)*
+    *   Open your web browser to the local Streamlit address provided in the terminal (e.g., `http://localhost:8501`). Interact with your frontend, which should now communicate with your local backend running on port 8000.
+
+4.  **Commit and Push:**
+    *   Once you're happy with your changes:
+        ```bash
+        git add . # Stage all changes (or specify files)
+        git commit -m "Your descriptive commit message"
+        git push origin <your-branch-name> # Push to the designated branch on GitHub
+        ```
+
+---
+
+## 4. Setting Up Your Local Development Environment
 
 To work on the application, you need to set it up on your local machine first.
 
@@ -70,7 +176,9 @@ To work on the application, you need to set it up on your local machine first.
         api_key = os.getenv("MISTRAL_API_KEY")
         ```
 
-## 3. Understanding the Tech Stack: FastAPI & Streamlit
+---
+
+## 5. Understanding the Tech Stack: FastAPI & Streamlit
 
 ### FastAPI (Backend)
 
@@ -100,6 +208,7 @@ The Streamlit frontend and FastAPI backend run as separate processes but work to
 8.  **UI Update:** Streamlit uses the received data to update the UI, displaying results, messages, or new elements to the user.
 
 ```python
+
 # Example within Streamlit (main_front.py or frontend/ file)
 import streamlit as st
 import requests # Need to install 'requests' (pip install requests)
@@ -133,85 +242,7 @@ if st.button("Send to Backend"):
 
 ```
 
-## 4. Development Workflow and Project Structure
-
-1.  **Understand the Structure:**
-```
-📦 default_app
- ┣ 📜 main_back.py        # Main FastAPI application file (Important note in Section Mandatory Guidelines)
- ┣ 📜 main_front.py       # Main Streamlit application file (Important note in Section Mandatory Guidelines)
- ┣ 📂 backend             # Folder for FastAPI code
- ┃ ┗ 📂 app
- ┃   ┣ 📜 back_utils.py   # Utility functions for the backend
- ┃   ┣ 📜 routes.py       # Defines API endpoints (routers)
- ┃   ┗ 📜 services.py     # Implements core business logic
- ┣ 📂 frontend            # Folder for Streamlit UI code
- ┃ ┣ 📜 main.py           # Defines the UI components and pages
- ┃ ┗ 📜 middleware.py     # Handles communication between frontend and backend
- ┣ 📂 logs                # Directory for application logs
- ┣ 📂 settings            # Configuration settings
- ┃ ┗ 📜 config.py         # Pydantic settings configuration
- ┣ 📜 start.sh            # Server-side script to run the application. Do not modify.
- ┣ 📜 requirements.txt    # Python dependencies
- ┗ 📜 README.md           # Project documentation and guidelines
-```
-
-2.  **Implement Your Logic:**
-    *   **Backend:** Add new endpoints in `backend/routes.py`, implement the logic in `backend/services.py` or `backend/utils.py`, and ensure the router is included/registered in `main_back.py` if necessary (check existing patterns).
-    *   **Frontend:** Add your Streamlit widgets, logic, and API calls within the `frontend/` folder or directly in `main_front.py`. Structure your UI logically using functions or classes imported into `main_front.py`.
-
-3.  **Run Locally for Testing:**
-    *   You need to run both the backend and frontend simultaneously. Open two separate terminals, both with the virtual environment activated.
-    *   **Terminal 1 (Start FastAPI Backend):**
-        ```bash
-        uvicorn main_back:app --reload --host 0.0.0.0 --port 8000
-        ```
-        *(Check `main_back.py` or `start.sh` if a different command/port is standard)*
-        *   `--reload`: Automatically restarts the server when code changes are detected.
-    *   **Terminal 2 (Start Streamlit Frontend):**
-        ```bash
-        streamlit run main_front.py
-        ```
-        *(Streamlit usually runs on port 8501 by default)*
-    *   Open your web browser to the local Streamlit address provided in the terminal (e.g., `http://localhost:8501`). Interact with your frontend, which should now communicate with your local backend running on port 8000.
-
-4.  **Commit and Push:**
-    *   Once you're happy with your changes:
-        ```bash
-        git add . # Stage all changes (or specify files)
-        git commit -m "Your descriptive commit message"
-        git push origin <your-branch-name> # Push to the designated branch on GitHub
-        ```
-
-## 5. Mandatory Guidelines & Constraints
-
-**Please adhere strictly to these rules to ensure your application runs correctly in the server environment:**
-
-*   **DO NOT MODIFY Server Arguments:** In `main_back.py` and `main_front.py`, do not change any existing arguments related to server ports, host binding (`host=`), `root_path`, or other server configuration parameters passed during application startup. These are set specifically for the container environment.
-*   **DO NOT MODIFY `start.sh`:** This script is used by the server environment to launch your application correctly. Do not change it.
-*   **DO NOT RENAME/DELETE Existing Directories:** Maintain the existing core directory structure (`backend/`, `frontend/`, etc.). You can *add* new directories inside `backend/` or `frontend/` or at the root level as needed for organization.
-*   **`config.toml` Updates:**
-    *   If you need to add Streamlit configurations to `config.toml`, you *can* do so.
-    *   **Avoid modifying or adding the `[server]` block** if possible.
-    *   If you absolutely must use the `[server]` block, **add it only at the very end of the `config.toml` file** to prevent conflicts with server-side configurations.
-        ```toml
-        # Example: Adding theme changes (OK)
-        [theme]
-        base = "dark"
-        primaryColor = "#FF4B4B"
-
-        # Example: Adding [server] block (ONLY if necessary, ADD AT END)
-        [client]
-        toolbarMode="viewer"
-        # ... other non-server settings ...
-        [theme]
-        base = "light"
-
-        # Add server block last if needed
-        [server]
-        runOnSave = true
-        ```
-*   **Code Placement:** Put your primary backend logic in `backend/` (`routes.py`, `services.py`, `utils.py`) and frontend logic in `frontend/`. The `main_back.py` and `main_front.py` files act as the entry points that load and orchestrate your code from these directories.
+---
 
 ## 6. ForgeAI GenAI Services
 
@@ -224,6 +255,8 @@ ForgeAI offers a suite of Generative AI (GenAI) services ready for integration, 
 To explore the full range of GenAI services and learn how to integrate them into your applications (e.g., calling them from your FastAPI backend), please refer to the **ForgeAI GenAI Services Repository:** [ForgeAI GenAI Services Repository Link Here - *Please insert the actual link*]
 
 This repository provides comprehensive documentation on available services, how to use them via API calls, and best practices for integration.
+
+---
 
 ## 7. Final Tips & Getting Help
 
