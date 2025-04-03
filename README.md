@@ -137,23 +137,23 @@ if st.button("Send to Backend"):
 
 1.  **Understand the Structure:**
 ```
-- default_app/
-  - main_back.py: Main FastAPI application file. Imports routers and starts the server.
-  - main_front.py: Main Streamlit application file. Imports UI components/logic.
-  - backend/: Folder for FastAPI code
-    - app/
-      - back_utils.py: Utility functions for the backend
-      - routes.py: Defines API endpoints (routers)
-      - services.py: Implements core business logic
-  - frontend/: Folder for Streamlit UI code
-    - main.py: Defines the UI components and pages
-    - middleware.py: Handles communication between frontend and backend
-  - logs/: Directory for application logs
-  - settings/: 
-    - config.py: Configuration settings using Pydantic
-  - start.sh: Server-side script to run the application. Do not modify.
-  - requirements.txt: Python dependencies
-  - README.md: Project documentation and guidelines
+📦 default_app
+ ┣ 📜 main_back.py        # Main FastAPI application file
+ ┣ 📜 main_front.py       # Main Streamlit application file
+ ┣ 📂 backend             # Folder for FastAPI code
+ ┃ ┗ 📂 app
+ ┃   ┣ 📜 back_utils.py   # Utility functions for the backend
+ ┃   ┣ 📜 routes.py       # Defines API endpoints (routers)
+ ┃   ┗ 📜 services.py     # Implements core business logic
+ ┣ 📂 frontend            # Folder for Streamlit UI code
+ ┃ ┣ 📜 main.py           # Defines the UI components and pages
+ ┃ ┗ 📜 middleware.py     # Handles communication between frontend and backend
+ ┣ 📂 logs                # Directory for application logs
+ ┣ 📂 settings            # Configuration settings
+ ┃ ┗ 📜 config.py         # Pydantic settings configuration
+ ┣ 📜 start.sh            # Server-side script to run the application. Do not modify.
+ ┣ 📜 requirements.txt    # Python dependencies
+ ┗ 📜 README.md           # Project documentation and guidelines
 ```
 
 2.  **Implement Your Logic:**
