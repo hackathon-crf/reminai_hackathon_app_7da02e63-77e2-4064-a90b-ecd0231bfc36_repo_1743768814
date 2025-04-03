@@ -119,7 +119,7 @@ If you want to pull your branch in the container, come see me (Paul)
         ```bash
         git add . # Stage all changes (or specify files)
         git commit -m "Your descriptive commit message"
-        git push origin <your-branch-name> # Push to the designated branch on GitHub
+        git push origin <your-branch-name> # Push to the designated branch on GitHub - Use main when ready to pull to the platform.
         ```
 
 ---
