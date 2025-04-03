@@ -138,8 +138,8 @@ if st.button("Send to Backend"):
 1.  **Understand the Structure:**
 ```
 📦 default_app
- ┣ 📜 main_back.py        # Main FastAPI application file
- ┣ 📜 main_front.py       # Main Streamlit application file
+ ┣ 📜 main_back.py        # Main FastAPI application file (Important note in Section Mandatory Guidelines)
+ ┣ 📜 main_front.py       # Main Streamlit application file (Important note in Section Mandatory Guidelines)
  ┣ 📂 backend             # Folder for FastAPI code
  ┃ ┗ 📂 app
  ┃   ┣ 📜 back_utils.py   # Utility functions for the backend
