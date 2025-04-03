@@ -136,17 +136,25 @@ if st.button("Send to Backend"):
 ## 4. Development Workflow and Project Structure
 
 1.  **Understand the Structure:**
-    *   `main_back.py`: Main FastAPI application file. **Do not modify core server arguments here.** Imports routers.
-    *   `main_front.py`: Main Streamlit application file. **Do not modify core server arguments here.** Imports UI components/logic.
-    *   `backend/`: Folder for your FastAPI code.
-        *   `backend/routes.py`: Define your API endpoints (routers) here.
-        *   `backend/services.py`: Implement the core business logic for your endpoints.
-        *   `backend/utils.py`: Place helper functions and utilities used by your backend.
-    *   `frontend/`: Folder for your Streamlit UI code. Place your custom UI elements, pages, or components here and import them into `main_front.py`.
-    *   `config.toml`: Configuration file for Streamlit. Follow specific rules (see below).
-    *   `start.sh`: Server-side script to run the application. **DO NOT MODIFY.**
-    *   `requirements.txt`: Python dependencies.
-    *   `.gitignore`: Specifies files/folders intentionally untracked by Git (e.g., `venv/`, `.env`, `__pycache__/`). Make sure `.env` is in here!
+```
+- default_app/
+  - main_back.py: Main FastAPI application file. Imports routers and starts the server.
+  - main_front.py: Main Streamlit application file. Imports UI components/logic.
+  - backend/: Folder for FastAPI code
+    - app/
+      - back_utils.py: Utility functions for the backend
+      - routes.py: Defines API endpoints (routers)
+      - services.py: Implements core business logic
+  - frontend/: Folder for Streamlit UI code
+    - main.py: Defines the UI components and pages
+    - middleware.py: Handles communication between frontend and backend
+  - logs/: Directory for application logs
+  - settings/: 
+    - config.py: Configuration settings using Pydantic
+  - start.sh: Server-side script to run the application. Do not modify.
+  - requirements.txt: Python dependencies
+  - README.md: Project documentation and guidelines
+```
 
 2.  **Implement Your Logic:**
     *   **Backend:** Add new endpoints in `backend/routes.py`, implement the logic in `backend/services.py` or `backend/utils.py`, and ensure the router is included/registered in `main_back.py` if necessary (check existing patterns).
