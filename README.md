@@ -2,6 +2,8 @@
 
 Welcome, Hackathon Participants! This document guides you through setting up your development environment and building your custom application using the ForgeAI Default Application template.
 
+[TOC] 
+
 ## Table of Contents / Sommaire
 
 *   [1. Overview: Your Application Environment](#1-overview-your-application-environment)
