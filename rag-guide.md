@@ -89,6 +89,3 @@ To use your RAG knowledge base in your applications:
 - If possible, segment very large documents before importing them
 - Regularly test your applications to verify the relevance of generated answers
 
-## Technical Support
-
-For any questions or issues regarding the ForgeAI RAG system, contact the support team at support@forgeai.com.
