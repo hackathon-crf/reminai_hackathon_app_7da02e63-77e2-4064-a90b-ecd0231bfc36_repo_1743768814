@@ -2,8 +2,6 @@
 
 Welcome, Hackathon Participants! This document guides you through setting up your development environment and building your custom application using the ForgeAI Default Application template.
 
-[TOC] 
-
 ## Table of Contents / Sommaire
 
 *   [1. Overview: Your Application Environment](#1-overview-your-application-environment)
@@ -24,6 +22,8 @@ Welcome, Hackathon Participants! This document guides you through setting up you
 [Additional Doc : Ask Questions to mentors (Important !!)](https://github.com/hackathon-crf/questions-mentor/blob/main/ask_questions_to_mentors.md)
 
 [Additional Doc : Use the ForgeAI RAG in your code](https://github.com/hackathon-crf/questions-mentor/blob/main/using_the_rag_in_your_code.md)
+
+[Additional Doc : Use the ForgeAI RAG on the admin](https://github.com/hackathon-crf/questions-mentor/blob/main/rag-guide.md)
 
 ---
 
@@ -96,6 +96,10 @@ If you want to pull your branch in the container, come see me (Paul)
  ┣ 📜 requirements.txt    # Python dependencies
  ┗ 📜 README.md           # Project documentation and guidelines
 ```
+    *   You may need to create /logs if missing
+    ```bash
+        mkdir -p logs
+    ```
 
 2.  **Implement Your Logic:**
     *   **Backend:** Add new endpoints in `backend/routes.py`, implement the logic in `backend/services.py` or `backend/utils.py`, and ensure the router is included/registered in `main_back.py` if necessary (check existing patterns).
@@ -115,6 +119,12 @@ If you want to pull your branch in the container, come see me (Paul)
         ```
         *(Streamlit usually runs on port 8501 by default)*
     *   Open your web browser to the local Streamlit address provided in the terminal (e.g., `http://localhost:8501`). Interact with your frontend, which should now communicate with your local backend running on port 8000.
+
+
+    * You can edit and use the start.sh that run these commands
+        ```bash
+        chmod +x start.sh
+        ```
 
 4.  **Commit and Push:**
     *   Once you're happy with your changes:
