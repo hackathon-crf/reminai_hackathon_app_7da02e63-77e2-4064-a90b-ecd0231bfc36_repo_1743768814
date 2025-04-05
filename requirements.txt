@@ -9,3 +9,4 @@ fitz
 tools
 faiss-cpu
 sentence_transformers
+plotly
