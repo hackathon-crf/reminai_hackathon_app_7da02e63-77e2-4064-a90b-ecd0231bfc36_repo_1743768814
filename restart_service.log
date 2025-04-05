@@ -1,0 +1,23 @@
+ForgeAI Services Restart Script
+================================
+Restarting services for application: hackathon_app
+Frontend port: 10149
+Backend port: 10150
+Stopping existing processes...
+Killing frontend processes on port 10149: 747
+Killing frontend PID: 747
+Killing backend processes on port 10150: 746
+756
+Killing backend PID: 746
+Killing backend PID: 756
+Starting backend...
+Installing requirements...
+Using backend file: main_back.py
+Setting root_path to: /reminai/hackathon_app
+Backend started with PID: 868
+Starting frontend...
+Using frontend file: main_front.py
+Using path-based URL: reminai/hackathon_app
+Frontend started with PID: 869
+Services restarted successfully!
+================================
