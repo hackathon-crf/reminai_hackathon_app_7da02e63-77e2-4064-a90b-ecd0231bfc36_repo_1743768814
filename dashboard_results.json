@@ -1,0 +1,953 @@
+[
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "****",
+                "choices": [
+                    "A) Page 3",
+                    "B) Page 4",
+                    "C) Page 5",
+                    "D) Page 6",
+                    "B) Page 4"
+                ],
+                "user_answer": "A) Page 3",
+                "correct_answer": "**"
+            },
+            {
+                "question": "**** Lors d'une intervention de secours, quelle est la première étape du bilan circonstanciel ?",
+                "choices": [
+                    "A) Effectuer le repérage secouriste",
+                    "B) Identifier la présence de victimes",
+                    "C) Demander des moyens complémentaires",
+                    "D) Réaliser une reconnaissance"
+                ],
+                "user_answer": "B) Identifier la présence de victimes",
+                "correct_answer": "** B) Identifier la présence de victimes"
+            },
+            {
+                "question": "**Question 1 :**",
+                "choices": [
+                    "A) Donner de l'eau à boire",
+                    "B) Proposer de s'allonger",
+                    "C) Réanimation cardiopulmonaire",
+                    "D) Réchauffer la victime",
+                    "C) Réanimation cardiopulmonaire"
+                ],
+                "user_answer": "C) Réanimation cardiopulmonaire",
+                "correct_answer": "**"
+            }
+        ],
+        "timestamp": "2025-04-05T00:23:44.090352"
+    },
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "**** Selon le mémento opérationnel des premiers secours en équipe, à quelle page se trouve la conduite à tenir devant une victime qui présente une hémorragie externe ?",
+                "choices": [
+                    "A) Page 13",
+                    "B) Page 14",
+                    "C) Page 15",
+                    "D) Page 16"
+                ],
+                "user_answer": "C) Page 15",
+                "correct_answer": "** C) Page 15"
+            },
+            {
+                "question": "**** Lors d'une intervention d'urgence, quelle est la première étape à réaliser pour évaluer la situation ?",
+                "choices": [
+                    "A) Arrêter l’hémorragie",
+                    "B) Identifier la nature de l’intervention et les circonstances",
+                    "C) Demander des moyens complémentaires",
+                    "D) Compléter les informations de départ"
+                ],
+                "user_answer": "B) Identifier la nature de l’intervention et les circonstances",
+                "correct_answer": "** B) Identifier la nature de l’intervention et les circonstances"
+            },
+            {
+                "question": "**** Lors d'une intervention d'urgence, quelle est la première étape à suivre pour évaluer l'état d'une victime ?",
+                "choices": [
+                    "A) Administrer de l'oxygène",
+                    "B) Identifier la(es) plainte(s) de la victime",
+                    "C) Mettre la victime en position horizontale",
+                    "D) Effectuer une réanimation cardiopulmonaire"
+                ],
+                "user_answer": "C) Mettre la victime en position horizontale",
+                "correct_answer": "** B) Identifier la(es) plainte(s) de la victime"
+            }
+        ],
+        "timestamp": "2025-04-05T00:32:47.583077"
+    },
+    {
+        "level": "Expert",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "**** Vous êtes intervenu sur une scène d'accident où une victime adulte a été retrouvée inconsciente mais ventilant. Après avoir réalisé le bilan circonstanciel et le bilan d’urgence vitale, vous avez constaté que la victime présente également une hémorragie externe. Quelle est la conduite à tenir dans cet ordre précis ?",
+                "choices": [
+                    "A) Réaliser un bilan complémentaire, arrêter l'hémorragie, surveiller la victime, et suivre la conduite à tenir devant une victime qui ne présente pas de détresse.",
+                    "B) Arrêter l'hémorragie, réaliser un bilan complémentaire, surveiller la victime, et suivre la conduite à tenir devant une victime qui présente une détresse neurologique.",
+                    "C) Réaliser un bilan complémentaire, arrêter l'hémorragie, surveiller la victime, et suivre la conduite à tenir devant une victime qui présente une hémorragie externe.",
+                    "D) Surveiller la victime, arrêter l'hémorragie, réaliser un bilan complémentaire, et suivre la conduite à tenir devant une victime qui présente une détresse circulatoire."
+                ],
+                "user_answer": "B) Arrêter l'hémorragie, réaliser un bilan complémentaire, surveiller la victime, et suivre la conduite à tenir devant une victime qui présente une détresse neurologique.",
+                "correct_answer": "** C) Réaliser un bilan complémentaire, arrêter l'hémorragie, surveiller la victime, et suivre la conduite à tenir devant une victime qui présente une hémorragie externe."
+            },
+            {
+                "question": "**** Vous êtes intervenu sur un accident de la route impliquant plusieurs véhicules. Après avoir réalisé une reconnaissance initiale, vous avez identifié trois victimes. Vous devez maintenant compléter le bilan circonstanciel et le bilan d'urgence vitale. Quelle est la première étape à suivre pour assurer la sécurité des victimes et des intervenants ?",
+                "choices": [
+                    "A) Effectuer immédiatement des manœuvres de désobstruction des voies aériennes sur les victimes qui ne répondent pas mais respirent.",
+                    "B) Transmettre les informations initiales à la centrale d'alerte et demander des moyens complémentaires si nécessaire.",
+                    "C) Identifier la nature de l’intervention et les circonstances de l’accident en discutant avec les témoins présents.",
+                    "D) Appliquer un garrot compressif sur toutes les victimes pour arrêter les hémorragies externes potentielles."
+                ],
+                "user_answer": "D) Appliquer un garrot compressif sur toutes les victimes pour arrêter les hémorragies externes potentielles.",
+                "correct_answer": "** B) Transmettre les informations initiales à la centrale d'alerte et demander des moyens complémentaires si nécessaire."
+            },
+            {
+                "question": "**** Vous êtes appelé pour secourir une victime qui présente une détresse vitale. La victime a des voies aériennes obstruées par un œdème et montre des signes d'anaphylaxie. Elle est en arrêt cardiaque avec perte de connaissance et absence de ventilation. Après avoir administré une injection d'adrénaline IM et commencé la réanimation cardiopulmonaire, vous évaluez les fonctions vitales de la victime. Quelle est la prochaine étape à suivre après avoir identifié une détresse vitale ?",
+                "choices": [
+                    "A) Placer la victime en position ½ assise respiratoire et administrer de l'oxygène.",
+                    "B) Placer la victime en position horizontale, administrer de l'oxygène, réchauffer et mettre au repos.",
+                    "C) Placer la victime en position horizontale, administrer de l'oxygène et proposer de s'allonger.",
+                    "D) Effectuer un bilan complémentaire en interrogeant la victime sur les circonstances de survenue de la détresse vitale."
+                ],
+                "user_answer": "D) Effectuer un bilan complémentaire en interrogeant la victime sur les circonstances de survenue de la détresse vitale.",
+                "correct_answer": "** B) Placer la victime en position horizontale, administrer de l'oxygène, réchauffer et mettre au repos."
+            }
+        ],
+        "timestamp": "2025-04-05T00:35:11.209568"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Vous êtes en intervention et vous trouvez une victime qui a perdu connaissance mais qui ventile encore. Quelle est la première conduite à tenir selon le mémento opérationnel des premiers secours en équipe ?",
+                "choices": [
+                    "A) Réaliser un bilan d’urgence vitale.",
+                    "B) Effectuer un bilan complémentaire.",
+                    "C) Surveiller la victime sans intervention immédiate.",
+                    "D) Appliquer immédiatement les gestes de secours complémentaires pour une affection traumatique."
+                ],
+                "user_answer": "D) Appliquer immédiatement les gestes de secours complémentaires pour une affection traumatique.",
+                "correct_answer": "A) Réaliser un bilan d’urgence vitale."
+            },
+            {
+                "question": "**** Vous êtes intervenu sur un accident de la route où plusieurs véhicules sont impliqués. Vous avez identifié deux victimes. La première victime est consciente et semble avoir une fracture ouverte au bras avec une hémorragie externe. La seconde victime est inconsciente et ne respire pas. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le bras de la première victime pour arrêter l'hémorragie.",
+                    "B) Effectuer une manœuvre de désobstruction des voies aériennes sur la seconde victime.",
+                    "C) Placer la première victime en position latérale de sécurité (PLS).",
+                    "D) Réaliser une reconnaissance rapide des lieux pour identifier d'autres victimes potentielles."
+                ],
+                "user_answer": "B) Effectuer une manœuvre de désobstruction des voies aériennes sur la seconde victime.",
+                "correct_answer": "** B) Effectuer une manœuvre de désobstruction des voies aériennes sur la seconde victime."
+            },
+            {
+                "question": "**** Vous êtes appelé pour secourir une personne qui présente des difficultés à respirer et une douleur thoracique. Elle est consciente mais semble très anxieuse. Vous avez identifié une détresse vitale. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Mettre la victime en position ½ assise respiratoire et lui donner de l'oxygène.",
+                    "B) Mettre la victime en position horizontale et lui proposer de s’allonger.",
+                    "C) Effectuer une réanimation cardiopulmonaire immédiatement.",
+                    "D) Injecter de l'adrénaline intramusculaire."
+                ],
+                "user_answer": "B) Mettre la victime en position horizontale et lui proposer de s’allonger.",
+                "correct_answer": "** A) Mettre la victime en position ½ assise respiratoire et lui donner de l'oxygène."
+            }
+        ],
+        "timestamp": "2025-04-05T00:36:54.703192"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "**** Vous êtes sur une plage en juillet 2024 et vous trouvez une personne inconsciente qui respire encore. Quelle est la première conduite à tenir en fonction du memento opérationnel des premiers secours en équipe ?",
+                "choices": [
+                    "A) Commencer immédiatement une réanimation cardio-pulmonaire (RCP).",
+                    "B) Vérifier les signes de détresse circulatoire et respiratoire.",
+                    "C) Vérifier les signes de détresse neurologique.",
+                    "D) Vérifier les signes de détresse respiratoire et réaliser un bilan d’urgence vitale."
+                ],
+                "user_answer": "C) Vérifier les signes de détresse neurologique.",
+                "correct_answer": "** D) Vérifier les signes de détresse respiratoire et réaliser un bilan d’urgence vitale."
+            },
+            {
+                "question": "**** Vous êtes intervenu sur un accident de la route où plusieurs véhicules sont impliqués. Vous avez identifié deux victimes. L'une est consciente et parle, l'autre est inconsciente mais respire. Quelle est la première action à entreprendre après avoir assuré votre propre sécurité et celle des victimes ?",
+                "choices": [
+                    "A) Transmettre immédiatement les informations à la centrale de secours et demander des renforts.",
+                    "B) Effectuer une reconnaissance rapide des lieux pour identifier d'autres victimes potentielles.",
+                    "C) Appliquer la Position Latérale de Sécurité (PLS) à la victime inconsciente qui respire.",
+                    "D) Commencer à interroger la victime consciente pour obtenir des détails sur l'accident."
+                ],
+                "user_answer": "D) Commencer à interroger la victime consciente pour obtenir des détails sur l'accident.",
+                "correct_answer": "** C) Appliquer la Position Latérale de Sécurité (PLS) à la victime inconsciente qui respire."
+            },
+            {
+                "question": "**** Vous êtes un secouriste de la Croix-Rouge et vous intervenez sur une scène où une personne est en détresse vitale. La victime présente des voies aériennes obstruées par un œdème, ce qui pourrait être dû à une réaction anaphylactique. La victime est consciente mais en difficulté respiratoire. Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Placer la victime en position horizontale et commencer la réanimation cardiopulmonaire immédiatement.",
+                    "B) Injecter de l'adrénaline par voie intramusculaire et placer la victime en position demi-assise respiratoire.",
+                    "C) Demander à la victime de s'allonger et de se reposer, puis proposer de la réchauffer.",
+                    "D) Rechercher immédiatement une plaie de la tête, du cou ou du tronc si la victime a été atteinte par une arme blanche ou à feu."
+                ],
+                "user_answer": "B) Injecter de l'adrénaline par voie intramusculaire et placer la victime en position demi-assise respiratoire.",
+                "correct_answer": "** B) Injecter de l'adrénaline par voie intramusculaire et placer la victime en position demi-assise respiratoire."
+            }
+        ],
+        "timestamp": "2025-04-05T00:41:37.893750"
+    },
+    {
+        "level": "Débutant",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Dans le mémo opérationnel des premiers secours en équipe, à quelle page trouvez-vous les instructions pour la conduite à tenir devant une victime qui présente une détresse respiratoire ?",
+                "choices": [
+                    "A) Page 2",
+                    "B) Page 3",
+                    "C) Page 10",
+                    "D) Page 11"
+                ],
+                "user_answer": "D) Page 11",
+                "correct_answer": "D) Page 11"
+            },
+            {
+                "question": "**** Lors de la réalisation d'un bilan circonstanciel, quelle action doit être prioritairement effectuée ?",
+                "choices": [
+                    "A) Identifier la nature et les circonstances de l’intervention",
+                    "B) Effectuer le repérage des victimes et indiquer leur nombre",
+                    "C) Existe-t-il un danger ?",
+                    "D) Indiquer les mesures de sécurité prises ou à prendre"
+                ],
+                "user_answer": "C) Existe-t-il un danger ?",
+                "correct_answer": "** C) Existe-t-il un danger ?"
+            },
+            {
+                "question": "**** En cas de détresse vitale, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Mettre la victime en position ½ assise respiratoire.",
+                    "B) Identifier la(es) plainte(s) de la victime.",
+                    "C) Administrer de l'oxygène.",
+                    "D) Mettre la victime en position horizontale."
+                ],
+                "user_answer": "D) Mettre la victime en position horizontale.",
+                "correct_answer": "** B) Identifier la(es) plainte(s) de la victime."
+            }
+        ],
+        "timestamp": "2025-04-05T00:49:30.800376"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Vous voyez une personne en train de se noyer à environ 10 mètres du rivage. Que faites-vous en premier ?",
+                "choices": [
+                    "A) Vous plongez immédiatement dans l'eau pour sauver la personne.",
+                    "B) Vous utilisez une bouée de sauvetage pour atteindre la victime.",
+                    "C) Vous demandez à une autre personne de plonger pour sauver la victime.",
+                    "D) Vous alertez immédiatement les secours spécialisés et utilisez un moyen d’aide au sauvetage comme une corde ou un bâton."
+                ],
+                "user_answer": "A) Vous plongez immédiatement dans l'eau pour sauver la personne.",
+                "correct_answer": "**"
+            },
+            {
+                "question": "Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Plonger immédiatement dans l'eau pour sauver la personne.",
+                    "B) Utiliser une bouée de sauvetage ou un autre moyen d'aide au sauvetage.",
+                    "C) Alerter ou faire alerter les secours spécialisés.",
+                    "D) Attendre que quelqu'un d'autre intervienne."
+                ],
+                "user_answer": "C) Alerter ou faire alerter les secours spécialisés.",
+                "correct_answer": "**"
+            },
+            {
+                "question": "Vous arrivez sur les lieux et voyez une personne en train de se noyer. Que faites-vous en premier ?",
+                "choices": [
+                    "A) Vous plongez directement dans l'eau pour sauver la personne.",
+                    "B) Vous utilisez une bouée de sauvetage pour sortir la victime de l'eau.",
+                    "C) Vous appelez immédiatement les secours spécialisés.",
+                    "D) Vous demandez à un passant de vous aider à sortir la victime de l'eau."
+                ],
+                "user_answer": "D) Vous demandez à un passant de vous aider à sortir la victime de l'eau.",
+                "correct_answer": "**"
+            }
+        ],
+        "timestamp": "2025-04-05T08:09:02.975553"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Que devez-vous faire en premier pour aider la victime ?",
+                "choices": [
+                    "A) Immédiatement, donner à boire de l'eau froide à la victime.",
+                    "B) Allonger la victime à l'ombre et la couvrir avec une couverture.",
+                    "C) Soustraire la victime à la cause, installer la victime dans un endroit tempéré et refroidir la victime (objectif : température < 39°C).",
+                    "D) Appliquer des compresses chaudes sur le corps de la victime.",
+                    "C) Soustraire la victime à la cause, installer la victime dans un endroit tempéré et refroidir la victime (objectif : température < 39°C)."
+                ],
+                "user_answer": "C) Soustraire la victime à la cause, installer la victime dans un endroit tempéré et refroidir la victime (objectif : température < 39°C).",
+                "correct_answer": "**"
+            },
+            {
+                "question": "Que devez-vous faire en premier pour aider cette victime ?",
+                "choices": [
+                    "A) Donner à la victime un médicament contre la fièvre.",
+                    "B) Placer la victime dans un endroit frais et refroidir son corps.",
+                    "C) Donner à la victime un verre d'eau froide à boire.",
+                    "D) Appliquer une compresse froide sur le front de la victime.",
+                    "B) Placer la victime dans un endroit frais et refroidir son corps."
+                ],
+                "user_answer": "C) Donner à la victime un verre d'eau froide à boire.",
+                "correct_answer": "**"
+            },
+            {
+                "question": "Vous arrivez sur les lieux d'un accident électrique. Une personne est en contact avec une source électrique. Que faites-vous en premier ?",
+                "choices": [
+                    "A) Vous touchez immédiatement la victime pour la retirer de la source électrique.",
+                    "B) Vous coupez le courant ou faites couper le courant par une personne qualifiée avant de toucher la victime.",
+                    "C) Vous demandez à la victime de se déplacer elle-même pour éviter le contact avec la source électrique.",
+                    "D) Vous appliquez immédiatement des compresses froides sur les brûlures visibles.",
+                    "B) Vous coupez le courant ou faites couper le courant par une personne qualifiée avant de toucher la victime."
+                ],
+                "user_answer": "B) Vous coupez le courant ou faites couper le courant par une personne qualifiée avant de toucher la victime.",
+                "correct_answer": "**"
+            }
+        ],
+        "timestamp": "2025-04-05T09:15:37.065506"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Toucher immédiatement la victime pour vérifier si elle est consciente.",
+                    "B) Faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime.",
+                    "C) Couper le courant ou faire couper le courant par une personne qualifiée avant de toucher la victime.",
+                    "D) Retirer les vêtements en combustion de la victime pour prévenir d’autres lésions thermiques.",
+                    "B) Faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime."
+                ],
+                "user_answer": "A) Toucher immédiatement la victime pour vérifier si elle est consciente.",
+                "correct_answer": ""
+            },
+            {
+                "question": "Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Toucher la victime pour vérifier si elle est consciente.",
+                    "B) Couper le courant ou faire couper le courant par une personne qualifiée.",
+                    "C) Retirer les vêtements en combustion de la victime.",
+                    "D) Appliquer un pansement sur les brûlures visibles.",
+                    "B) Couper le courant ou faire couper le courant par une personne qualifiée."
+                ],
+                "user_answer": "B) Couper le courant ou faire couper le courant par une personne qualifiée.",
+                "correct_answer": ""
+            },
+            {
+                "question": "Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le cou pour arrêter la circulation sanguine.",
+                    "B) Soutenir la victime en cas de pendaison puis la dépendre.",
+                    "C) Allonger immédiatement la victime sur le dos pour vérifier ses signes vitaux.",
+                    "D) Demander à la victime de rester immobile jusqu'à l'arrivée des secours.",
+                    "B) Soutenir la victime en cas de pendaison puis la dépendre."
+                ],
+                "user_answer": "C) Allonger immédiatement la victime sur le dos pour vérifier ses signes vitaux.",
+                "correct_answer": ""
+            }
+        ],
+        "timestamp": "2025-04-05T09:43:27.582749"
+    },
+    {
+        "level": "Débutant",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments à la victime.",
+                    "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                    "C) Refroidir la victime en l'immergeant dans un bain d'eau chaude.",
+                    "D) Donner à boire à la victime."
+                ],
+                "user_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                "correct_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments contre la fièvre.",
+                    "B) Soustraire la victime à la cause et installer la victime dans un endroit tempéré.",
+                    "C) Placer la victime sous une couverture chaude.",
+                    "D) Donner à boire à la victime."
+                ],
+                "user_answer": "C) Placer la victime sous une couverture chaude.",
+                "correct_answer": "B) Soustraire la victime à la cause et installer la victime dans un endroit tempéré."
+            },
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments pour faire baisser la température.",
+                    "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                    "C) Immédiatement immerger la victime dans un bain d’eau froide.",
+                    "D) Donner à la victime des boissons chaudes pour la réhydrater."
+                ],
+                "user_answer": "D) Donner à la victime des boissons chaudes pour la réhydrater.",
+                "correct_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            }
+        ],
+        "timestamp": "2025-04-05T09:50:42.703200"
+    },
+    {
+        "level": "Débutant",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments spécifiques.",
+                    "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                    "C) Appliquer des compresses froides sur le corps de la victime.",
+                    "D) Donner à boire à la victime de l'eau glacée."
+                ],
+                "user_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                "correct_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments à la victime.",
+                    "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                    "C) Faire boire de l'eau à la victime.",
+                    "D) Appliquer des compresses chaudes sur le corps de la victime."
+                ],
+                "user_answer": "C) Faire boire de l'eau à la victime.",
+                "correct_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer un médicament contre la fièvre.",
+                    "B) Soustraire la victime à la cause et installer la victime dans un endroit tempéré.",
+                    "C) Masser la victime pour stimuler la circulation sanguine.",
+                    "D) Donner à boire de l'eau froide à la victime."
+                ],
+                "user_answer": "D) Donner à boire de l'eau froide à la victime.",
+                "correct_answer": "B) Soustraire la victime à la cause et installer la victime dans un endroit tempéré."
+            }
+        ],
+        "timestamp": "2025-04-05T09:56:34.190426"
+    },
+    {
+        "level": "Débutant",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments spécifiques.",
+                    "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                    "C) Appliquer des compresses froides sur le corps de la victime.",
+                    "D) Donner à boire à la victime de l'eau glacée."
+                ],
+                "user_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                "correct_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer des médicaments à la victime.",
+                    "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré.",
+                    "C) Faire boire de l'eau à la victime.",
+                    "D) Appliquer des compresses chaudes sur le corps de la victime."
+                ],
+                "user_answer": "C) Faire boire de l'eau à la victime.",
+                "correct_answer": "B) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "En cas de coup de chaleur, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer un médicament contre la fièvre.",
+                    "B) Soustraire la victime à la cause et installer la victime dans un endroit tempéré.",
+                    "C) Masser la victime pour stimuler la circulation sanguine.",
+                    "D) Donner à boire de l'eau froide à la victime."
+                ],
+                "user_answer": "D) Donner à boire de l'eau froide à la victime.",
+                "correct_answer": "B) Soustraire la victime à la cause et installer la victime dans un endroit tempéré."
+            }
+        ],
+        "timestamp": "2025-04-05T10:01:26.667273"
+    },
+    {
+        "level": "Expert",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Vous intervenez sur une scène où une victime présente une obstruction complète des voies aériennes par un corps étranger. Quelle est la première étape à suivre selon les gestes de secours complémentaires de la Croix-Rouge française ?",
+                "choices": [
+                    "A) Administrer immédiatement une injection de naloxone.",
+                    "B) Appliquer une technique de Heimlich.",
+                    "C) Retirer immédiatement la victime de la source de constriction.",
+                    "D) Immobiliser le rachis cervical de la victime."
+                ],
+                "user_answer": "C) Retirer immédiatement la victime de la source de constriction.",
+                "correct_answer": "B) Appliquer une technique de Heimlich."
+            },
+            {
+                "question": "Vous êtes appelé sur une scène où une victime présente une obstruction complète des voies aériennes par un corps étranger. Quelle est la première étape à suivre selon les gestes de secours complémentaires de la Croix-Rouge française ?",
+                "choices": [
+                    "A) Administrer une pulvérisation nasale de naloxone.",
+                    "B) Pratiquer une ventilation artificielle.",
+                    "C) Réaliser une manœuvre de Heimlich.",
+                    "D) Soustraire la victime à la cause et installer la victime dans un endroit tempéré."
+                ],
+                "user_answer": "D) Soustraire la victime à la cause et installer la victime dans un endroit tempéré.",
+                "correct_answer": "C) Réaliser une manœuvre de Heimlich."
+            },
+            {
+                "question": "Vous êtes intervenu sur une scène où une victime présente une obstruction complète des voies aériennes par un corps étranger. Quelle est la première étape à suivre selon les gestes de secours complémentaires ?",
+                "choices": [
+                    "A) Administrer une pulvérisation nasale de naloxone.",
+                    "B) Soustraire la victime à la cause, installer la victime si possible dans un endroit tempéré.",
+                    "C) Réaliser une manœuvre de Heimlich.",
+                    "D) Faire vomir la victime pour expulser le corps étranger."
+                ],
+                "user_answer": "D) Faire vomir la victime pour expulser le corps étranger.",
+                "correct_answer": "C) Réaliser une manœuvre de Heimlich."
+            }
+        ],
+        "timestamp": "2025-04-05T10:02:51.498908"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d'intoxication par des opiacés ou opioïdes, quelle est la conduite à tenir si la victime de plus de 14 ans a perdu connaissance et présente une fréquence respiratoire (FR) inférieure à 12 mouvements par minute ?",
+                "choices": [
+                    "A) Administrer immédiatement un massage cardiaque.",
+                    "B) Administrer une pulvérisation nasale de naloxone sur prescription médicale.",
+                    "C) Faire boire de l'eau à la victime pour diluer le toxique.",
+                    "D) Faire vomir la victime pour expulser le toxique."
+                ],
+                "user_answer": "C) Faire boire de l'eau à la victime pour diluer le toxique.",
+                "correct_answer": "B) Administrer une pulvérisation nasale de naloxone sur prescription médicale."
+            },
+            {
+                "question": "En cas de noyade, quelle est la première action à entreprendre après avoir dégagé la victime de l'eau ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Effectuer une réanimation cardio-pulmonaire (RCP) immédiatement.",
+                    "C) Allonger la victime sur le côté pour éviter l'inhalation de liquide.",
+                    "D) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+                ],
+                "user_answer": "C) Allonger la victime sur le côté pour éviter l'inhalation de liquide.",
+                "correct_answer": "D) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "Vous êtes confronté à une victime qui présente une plaie grave. Quelle est la conduite à tenir immédiate ?",
+                "choices": [
+                    "A) Retirer immédiatement tout corps étranger pénétrant pour éviter une infection.",
+                    "B) Installer la victime en position d’attente et protéger la plaie par un pansement ou un champ stérile.",
+                    "C) Nettoyer la plaie avec de l’alcool pour désinfecter.",
+                    "D) Appliquer une pommade antibactérienne directement sur la plaie."
+                ],
+                "user_answer": "C) Nettoyer la plaie avec de l’alcool pour désinfecter.",
+                "correct_answer": "B) Installer la victime en position d’attente et protéger la plaie par un pansement ou un champ stérile."
+            }
+        ],
+        "timestamp": "2025-04-05T10:14:19.116308"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d'intoxication par des opiacés ou opioïdes, quelle est la conduite à tenir si la victime de plus de 14 ans a perdu connaissance et présente une fréquence respiratoire (FR) inférieure à 12 mouvements par minute ?",
+                "choices": [
+                    "A) Administrer immédiatement un massage cardiaque.",
+                    "B) Administrer une pulvérisation nasale de naloxone sur prescription médicale.",
+                    "C) Faire boire de l'eau à la victime pour diluer le toxique.",
+                    "D) Faire vomir la victime pour expulser le toxique."
+                ],
+                "user_answer": "C) Faire boire de l'eau à la victime pour diluer le toxique.",
+                "correct_answer": "B) Administrer une pulvérisation nasale de naloxone sur prescription médicale."
+            },
+            {
+                "question": "En cas de noyade, quelle est la première action à entreprendre après avoir dégagé la victime de l'eau ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Effectuer une réanimation cardio-pulmonaire (RCP) immédiatement.",
+                    "C) Allonger la victime sur le côté pour éviter l'inhalation de liquide.",
+                    "D) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+                ],
+                "user_answer": "C) Allonger la victime sur le côté pour éviter l'inhalation de liquide.",
+                "correct_answer": "D) Soustraire la victime à la cause et l'installer dans un endroit tempéré."
+            },
+            {
+                "question": "Vous êtes confronté à une victime qui présente une plaie grave. Quelle est la conduite à tenir immédiate ?",
+                "choices": [
+                    "A) Retirer immédiatement tout corps étranger pénétrant pour éviter une infection.",
+                    "B) Installer la victime en position d’attente et protéger la plaie par un pansement ou un champ stérile.",
+                    "C) Nettoyer la plaie avec de l’alcool pour désinfecter.",
+                    "D) Appliquer une pommade antibactérienne directement sur la plaie."
+                ],
+                "user_answer": "C) Nettoyer la plaie avec de l’alcool pour désinfecter.",
+                "correct_answer": "B) Installer la victime en position d’attente et protéger la plaie par un pansement ou un champ stérile."
+            }
+        ],
+        "timestamp": "2025-04-05T10:14:24.140282"
+    },
+    {
+        "level": "Expert",
+        "score": 3,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d'incendie, si une victime est prise dans les flammes et présente une hémorragie externe non accessible, quelle est la conduite à tenir après avoir dégagé la victime ?",
+                "choices": [
+                    "A) Appliquer un pansement compressif sur la zone saignante.",
+                    "B) Utiliser un garrot sur le membre comprimé.",
+                    "C) Immerger la victime dans un bain d’eau froide.",
+                    "D) Administrer des analgésiques pour soulager la douleur."
+                ],
+                "user_answer": "B) Utiliser un garrot sur le membre comprimé.",
+                "correct_answer": "B) Utiliser un garrot sur le membre comprimé."
+            },
+            {
+                "question": "En cas d'hémorragie externe non accessible chez un élève en milieu scolaire, quelle est la conduite à tenir si la durée de la compression est supérieure à 4 heures ?",
+                "choices": [
+                    "A) Continuer la compression manuelle sans interruption.",
+                    "B) Appliquer un garrot sur le membre comprimé.",
+                    "C) Transporter immédiatement la victime à l'hôpital sans appliquer de garrot.",
+                    "D) Appliquer une compresse stérile et surveiller l'évolution de l'hémorragie."
+                ],
+                "user_answer": "B) Appliquer un garrot sur le membre comprimé.",
+                "correct_answer": "B) Appliquer un garrot sur le membre comprimé."
+            },
+            {
+                "question": "En cas de brûlure grave nécessitant une intervention de secours, quelle est la conduite à tenir pour refroidir efficacement la zone brûlée ?",
+                "choices": [
+                    "A) Appliquer de l'eau à température ambiante sur la brûlure pendant au moins 20 minutes.",
+                    "B) Immerger la victime dans un bain d’eau chaude (température entre 30°C et 40°C) pour éviter le choc thermique.",
+                    "C) Appliquer une pommade grasse directement sur la brûlure pour protéger la peau.",
+                    "D) Utiliser de l'éther pour désinfecter la zone brûlée avant de la refroidir."
+                ],
+                "user_answer": "A) Appliquer de l'eau à température ambiante sur la brûlure pendant au moins 20 minutes.",
+                "correct_answer": "A) Appliquer de l'eau à température ambiante sur la brûlure pendant au moins 20 minutes."
+            }
+        ],
+        "timestamp": "2025-04-05T10:23:03.368985"
+    },
+    {
+        "level": "Expert",
+        "score": 3,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d'incendie, si une victime est prise dans les flammes et présente une hémorragie externe non accessible, quelle est la conduite à tenir après avoir dégagé la victime ?",
+                "choices": [
+                    "A) Appliquer un pansement compressif sur la zone saignante.",
+                    "B) Utiliser un garrot sur le membre comprimé.",
+                    "C) Immerger la victime dans un bain d’eau froide.",
+                    "D) Administrer des analgésiques pour soulager la douleur."
+                ],
+                "user_answer": "B) Utiliser un garrot sur le membre comprimé.",
+                "correct_answer": "B) Utiliser un garrot sur le membre comprimé."
+            },
+            {
+                "question": "En cas d'hémorragie externe non accessible chez un élève en milieu scolaire, quelle est la conduite à tenir si la durée de la compression est supérieure à 4 heures ?",
+                "choices": [
+                    "A) Continuer la compression manuelle sans interruption.",
+                    "B) Appliquer un garrot sur le membre comprimé.",
+                    "C) Transporter immédiatement la victime à l'hôpital sans appliquer de garrot.",
+                    "D) Appliquer une compresse stérile et surveiller l'évolution de l'hémorragie."
+                ],
+                "user_answer": "B) Appliquer un garrot sur le membre comprimé.",
+                "correct_answer": "B) Appliquer un garrot sur le membre comprimé."
+            },
+            {
+                "question": "En cas de brûlure grave nécessitant une intervention de secours, quelle est la conduite à tenir pour refroidir efficacement la zone brûlée ?",
+                "choices": [
+                    "A) Appliquer de l'eau à température ambiante sur la brûlure pendant au moins 20 minutes.",
+                    "B) Immerger la victime dans un bain d’eau chaude (température entre 30°C et 40°C) pour éviter le choc thermique.",
+                    "C) Appliquer une pommade grasse directement sur la brûlure pour protéger la peau.",
+                    "D) Utiliser de l'éther pour désinfecter la zone brûlée avant de la refroidir."
+                ],
+                "user_answer": "A) Appliquer de l'eau à température ambiante sur la brûlure pendant au moins 20 minutes.",
+                "correct_answer": "A) Appliquer de l'eau à température ambiante sur la brûlure pendant au moins 20 minutes."
+            }
+        ],
+        "timestamp": "2025-04-05T10:24:03.278986"
+    },
+    {
+        "level": "Débutant",
+        "score": 3,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas de brûlure, quelle est la première action à entreprendre après avoir dégagé la victime de la source de chaleur ?",
+                "choices": [
+                    "A) Appliquer une pommade grasse sur la brûlure.",
+                    "B) Plonger immédiatement la brûlure dans de l'eau très froide.",
+                    "C) Envelopper la brûlure dans un tissu propre et sec.",
+                    "D) Appliquer de l'alcool sur la brûlure pour désinfecter."
+                ],
+                "user_answer": "B) Plonger immédiatement la brûlure dans de l'eau très froide.",
+                "correct_answer": "B) Plonger immédiatement la brûlure dans de l'eau très froide."
+            },
+            {
+                "question": "Vous êtes face à une victime qui présente une obstruction complète des voies aériennes par un corps étranger. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Effectuer des compressions thoraciques.",
+                    "B) Administrer de l'eau pour aider à faire descendre le corps étranger.",
+                    "C) Réaliser des claques dans le dos.",
+                    "D) Demander à la victime de tousser fortement."
+                ],
+                "user_answer": "C) Réaliser des claques dans le dos.",
+                "correct_answer": "C) Réaliser des claques dans le dos."
+            },
+            {
+                "question": "Vous êtes témoin d'une électrocution. Quelle est la première action à entreprendre pour assurer votre sécurité et celle des autres personnes présentes ?",
+                "choices": [
+                    "A) Toucher immédiatement la victime pour vérifier si elle est consciente.",
+                    "B) Couper le courant ou faire couper le courant par une personne qualifiée avant de toucher la victime.",
+                    "C) Appliquer un pansement stérile sur les brûlures visibles.",
+                    "D) Donner à boire à la victime pour la réhydrater."
+                ],
+                "user_answer": "B) Couper le courant ou faire couper le courant par une personne qualifiée avant de toucher la victime.",
+                "correct_answer": "B) Couper le courant ou faire couper le courant par une personne qualifiée avant de toucher la victime."
+            }
+        ],
+        "timestamp": "2025-04-05T10:26:06.964944"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Lors d'un arrêt cardiaque chez un adulte, quelle est la première action à entreprendre après avoir dégagé la victime et appelé les secours ?",
+                "choices": [
+                    "A) Commencer immédiatement les compressions thoraciques.",
+                    "B) Vérifier la présence d'un pouls carotidien.",
+                    "C) Administrer 5 insufflations initiales.",
+                    "D) Placer la victime en position latérale de sécurité."
+                ],
+                "user_answer": "C) Administrer 5 insufflations initiales.",
+                "correct_answer": "C) Administrer 5 insufflations initiales."
+            },
+            {
+                "question": "En cas d'hémorragie externe non accessible, quelle est la conduite à tenir si la durée de la compression est supérieure à 4 heures ?",
+                "choices": [
+                    "A) Continuer la compression manuelle sans interruption.",
+                    "B) Appliquer un pansement compressif supplémentaire.",
+                    "C) Utiliser un garrot sur le membre comprimé.",
+                    "D) Transporter immédiatement la victime vers un centre médical."
+                ],
+                "user_answer": "D) Transporter immédiatement la victime vers un centre médical.",
+                "correct_answer": "C) Utiliser un garrot sur le membre comprimé."
+            },
+            {
+                "question": "En cas de noyade, après avoir dégagé la victime de l'eau, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Allonger la victime sur le côté gauche.",
+                    "C) Vérifier la respiration et commencer la réanimation cardio-pulmonaire (RCP) si nécessaire.",
+                    "D) Immobiliser le rachis cervical."
+                ],
+                "user_answer": "B) Allonger la victime sur le côté gauche.",
+                "correct_answer": "C) Vérifier la respiration et commencer la réanimation cardio-pulmonaire (RCP) si nécessaire."
+            }
+        ],
+        "timestamp": "2025-04-05T10:36:31.981847"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Lors d'un arrêt cardiaque chez un adulte, quelle est la première action à entreprendre après avoir dégagé la victime et appelé les secours ?",
+                "choices": [
+                    "A) Commencer immédiatement les compressions thoraciques.",
+                    "B) Vérifier la présence d'un pouls carotidien.",
+                    "C) Administrer 5 insufflations initiales.",
+                    "D) Placer la victime en position latérale de sécurité."
+                ],
+                "user_answer": "C) Administrer 5 insufflations initiales.",
+                "correct_answer": "C) Administrer 5 insufflations initiales."
+            },
+            {
+                "question": "En cas d'hémorragie externe non accessible, quelle est la conduite à tenir si la durée de la compression est supérieure à 4 heures ?",
+                "choices": [
+                    "A) Continuer la compression manuelle sans interruption.",
+                    "B) Appliquer un pansement compressif supplémentaire.",
+                    "C) Utiliser un garrot sur le membre comprimé.",
+                    "D) Transporter immédiatement la victime vers un centre médical."
+                ],
+                "user_answer": "D) Transporter immédiatement la victime vers un centre médical.",
+                "correct_answer": "C) Utiliser un garrot sur le membre comprimé."
+            },
+            {
+                "question": "En cas de noyade, après avoir dégagé la victime de l'eau, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Allonger la victime sur le côté gauche.",
+                    "C) Vérifier la respiration et commencer la réanimation cardio-pulmonaire (RCP) si nécessaire.",
+                    "D) Immobiliser le rachis cervical."
+                ],
+                "user_answer": "B) Allonger la victime sur le côté gauche.",
+                "correct_answer": "C) Vérifier la respiration et commencer la réanimation cardio-pulmonaire (RCP) si nécessaire."
+            }
+        ],
+        "timestamp": "2025-04-05T10:39:06.356441"
+    },
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d’arrêt cardiaque chez un adulte, quelle est la première action à entreprendre après avoir vérifié l'absence de réponse et de respiration normale ?",
+                "choices": [
+                    "A) Commencer immédiatement les compressions thoraciques.",
+                    "B) Effectuer 5 insufflations initiales.",
+                    "C) Appeler les secours et commencer les compressions thoraciques.",
+                    "D) Vérifier le pouls carotidien pendant 10 secondes."
+                ],
+                "user_answer": "B) Effectuer 5 insufflations initiales.",
+                "correct_answer": "C) Appeler les secours et commencer les compressions thoraciques."
+            },
+            {
+                "question": "En cas d'incendie, quelle est la première action à entreprendre pour une victime prise dans les flammes ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Dégager immédiatement la victime de la zone en feu.",
+                    "C) Allonger la victime au sol et stabiliser le rachis cervical.",
+                    "D) Faire respecter les consignes à appliquer sur une scène de crime."
+                ],
+                "user_answer": "C) Allonger la victime au sol et stabiliser le rachis cervical.",
+                "correct_answer": "B) Dégager immédiatement la victime de la zone en feu."
+            },
+            {
+                "question": "Vous êtes témoin d'une scène de violence où une personne a été blessée par une arme blanche. La victime présente une hémorragie externe importante au niveau de la cuisse. Quelle est la conduite à tenir en premier lieu ?",
+                "choices": [
+                    "A) Appliquer un garrot immédiatement.",
+                    "B) Appeler les secours et attendre leur arrivée.",
+                    "C) Comprimer la plaie avec les mains ou un tissu propre pendant au moins 4 heures.",
+                    "D) Dégager la victime de la scène de violence et la déplacer vers un endroit sûr."
+                ],
+                "user_answer": "B) Appeler les secours et attendre leur arrivée.",
+                "correct_answer": "A) Appliquer un garrot immédiatement."
+            }
+        ],
+        "timestamp": "2025-04-05T10:44:35.985984"
+    },
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d’arrêt cardiaque chez un adulte, quelle est la première action à entreprendre après avoir vérifié l'absence de réponse et de respiration normale ?",
+                "choices": [
+                    "A) Commencer immédiatement les compressions thoraciques.",
+                    "B) Effectuer 5 insufflations initiales.",
+                    "C) Appeler les secours et commencer les compressions thoraciques.",
+                    "D) Vérifier le pouls carotidien pendant 10 secondes."
+                ],
+                "user_answer": "B) Effectuer 5 insufflations initiales.",
+                "correct_answer": "C) Appeler les secours et commencer les compressions thoraciques."
+            },
+            {
+                "question": "En cas d'incendie, quelle est la première action à entreprendre pour une victime prise dans les flammes ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Dégager immédiatement la victime de la zone en feu.",
+                    "C) Allonger la victime au sol et stabiliser le rachis cervical.",
+                    "D) Faire respecter les consignes à appliquer sur une scène de crime."
+                ],
+                "user_answer": "C) Allonger la victime au sol et stabiliser le rachis cervical.",
+                "correct_answer": "B) Dégager immédiatement la victime de la zone en feu."
+            },
+            {
+                "question": "Vous êtes témoin d'une scène de violence où une personne a été blessée par une arme blanche. La victime présente une hémorragie externe importante au niveau de la cuisse. Quelle est la conduite à tenir en premier lieu ?",
+                "choices": [
+                    "A) Appliquer un garrot immédiatement.",
+                    "B) Appeler les secours et attendre leur arrivée.",
+                    "C) Comprimer la plaie avec les mains ou un tissu propre pendant au moins 4 heures.",
+                    "D) Dégager la victime de la scène de violence et la déplacer vers un endroit sûr."
+                ],
+                "user_answer": "B) Appeler les secours et attendre leur arrivée.",
+                "correct_answer": "A) Appliquer un garrot immédiatement."
+            }
+        ],
+        "timestamp": "2025-04-05T10:45:06.396750"
+    },
+    {
+        "level": "Expert",
+        "score": 2,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas d'hémorragie externe non accessible et si la durée de la compression est supérieure à 4 heures, quel geste de secours complémentaire doit être effectué ?",
+                "choices": [
+                    "A) Continuer la compression manuelle jusqu'à l'arrivée des secours spécialisés.",
+                    "B) Appliquer un pansement compressif supplémentaire.",
+                    "C) Utiliser un garrot sur le membre comprimé.",
+                    "D) Administrer des analgésiques pour soulager la douleur."
+                ],
+                "user_answer": "C) Utiliser un garrot sur le membre comprimé.",
+                "correct_answer": "C) Utiliser un garrot sur le membre comprimé."
+            },
+            {
+                "question": "Lors d'une intervention sur une scène de violence, une victime présente une hémorragie externe non accessible. Quelle est la conduite à tenir en termes de premiers secours ?",
+                "choices": [
+                    "A) Appliquer un pansement compressif et demander à la victime de rester immobile.",
+                    "B) Utiliser un garrot sur le membre comprimé si la durée de la compression est supérieure à 4 heures.",
+                    "C) Dégager la victime de la scène de violence et appliquer un pansement compressif.",
+                    "D) Immobiliser la victime et demander des renforts médicaux immédiats."
+                ],
+                "user_answer": "D) Immobiliser la victime et demander des renforts médicaux immédiats.",
+                "correct_answer": "B) Utiliser un garrot sur le membre comprimé si la durée de la compression est supérieure à 4 heures."
+            },
+            {
+                "question": "Une victime présente une obstruction complète des voies aériennes par un corps étranger. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Effectuer une compression thoracique immédiate.",
+                    "B) Administrer de l'oxygène.",
+                    "C) Réaliser des claques dans le dos jusqu'à ce que l'objet soit expulsé.",
+                    "D) Effectuer des manœuvres de Heimlich."
+                ],
+                "user_answer": "D) Effectuer des manœuvres de Heimlich.",
+                "correct_answer": "D) Effectuer des manœuvres de Heimlich."
+            }
+        ],
+        "timestamp": "2025-04-05T11:06:39.993636"
+    }
+]
