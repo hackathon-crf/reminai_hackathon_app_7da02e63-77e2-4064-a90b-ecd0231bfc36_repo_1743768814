@@ -1,6 +1,26 @@
-import sqlite3
+"""
+Database module for the Questions Mentor backend.
 
-def init_db():
+This module handles all database operations including initialization,
+user registration, and authentication. It uses SQLite as the database
+engine and provides functions for managing user accounts with different roles.
+"""
+
+import sqlite3
+from typing import Optional, Tuple, Union
+
+def init_db() -> None:
+    """
+    Initialize the SQLite database and create the users table if it doesn't exist.
+
+    The users table contains the following columns:
+    - id: Unique identifier for each user (auto-incrementing)
+    - username: Unique username for login
+    - password: User's password (should be hashed in production)
+    - role: User's role ('formateur', 'secouriste', or 'grand_public')
+    - fullname: User's full name
+    - email: User's email address
+    """
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
 
@@ -17,7 +37,23 @@ def init_db():
     conn.commit()
     conn.close()
 
-def register_user(username, password, role, fullname, email):
+def register_user(username: str, password: str, role: str, fullname: str, email: str) -> bool:
+    """
+    Register a new user in the database.
+
+    Args:
+        username (str): Unique username for the new user
+        password (str): User's password (should be hashed in production)
+        role (str): User's role ('formateur', 'secouriste', or 'grand_public')
+        fullname (str): User's full name
+        email (str): User's email address
+
+    Returns:
+        bool: True if registration successful, False if username already exists
+
+    Note:
+        The function handles SQLite's IntegrityError for duplicate usernames
+    """
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
     try:
@@ -30,7 +66,17 @@ def register_user(username, password, role, fullname, email):
     finally:
         conn.close()
 
-def login_user(username, password):
+def login_user(username: str, password: str) -> Optional[str]:
+    """
+    Authenticate a user and return their role.
+
+    Args:
+        username (str): The username to authenticate
+        password (str): The password to verify
+
+    Returns:
+        Optional[str]: The user's role if authentication successful, None otherwise
+    """
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
     cursor.execute("SELECT role FROM users WHERE username=? AND password=?", (username, password))

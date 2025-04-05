@@ -1,8 +1,20 @@
+"""
+Authentication frontend module for the Questions Mentor system.
+
+This module provides a Streamlit interface for:
+- User registration with role selection (public, first aider, trainer)
+- User login with role-based redirection
+- Session management and access control
+
+The module integrates with the backend database for user authentication
+and maintains user sessions using Streamlit's session state.
+"""
+
 import streamlit as st
 import os
 import sys
 
-# ➤ Ajout du chemin absolu du dossier parent
+# Add backend directory to Python path for imports
 BACKEND_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'backend'))
 if BACKEND_PATH not in sys.path:
     sys.path.append(BACKEND_PATH)

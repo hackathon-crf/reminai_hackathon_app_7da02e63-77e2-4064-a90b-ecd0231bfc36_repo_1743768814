@@ -1,7 +1,21 @@
-import os
-os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
+"""
+Frontend Streamlit application for the Questions Mentor quiz system.
 
-# 🔧 Pour résoudre le problème d'import du dossier parent
+This module implements an interactive quiz interface using Streamlit, featuring:
+- Three difficulty levels (Beginner, Intermediate, Expert)
+- AI-generated questions using Mistral AI
+- Real-time scoring and feedback
+- Quiz result persistence
+- Custom styling and user interface elements
+
+The application integrates with the backend RAG system to generate
+contextually relevant questions about first aid procedures.
+"""
+
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "True"  # Fix for Intel MKL library conflicts
+
+# Add parent directory to Python path for imports
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 

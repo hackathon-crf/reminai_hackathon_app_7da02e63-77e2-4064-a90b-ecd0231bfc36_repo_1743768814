@@ -1,25 +1,68 @@
-# backend/build_rag_index.py
+"""
+RAG Index Builder module for the Questions Mentor system.
+
+This module handles the creation of the FAISS search index used by the RAG system:
+- Extracts text from PDF documentation
+- Splits text into manageable chunks
+- Generates embeddings using SentenceTransformer
+- Creates and saves a FAISS index for similarity search
+- Persists text chunks for later retrieval
+
+The index enables efficient semantic search across first aid documentation,
+which is used to generate contextually relevant quiz questions.
+"""
+
 import os
 import pickle
+from typing import List
 import fitz  # PyMuPDF
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-# Charger le modèle d'embedding
+# Load embedding model
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# Lire le texte du PDF
-def extract_text_from_pdf(pdf_path):
+def extract_text_from_pdf(pdf_path: str) -> str:
+    """
+    Extract text content from a PDF file.
+
+    Args:
+        pdf_path (str): Path to the PDF file to process
+
+    Returns:
+        str: Concatenated text content from all pages of the PDF
+    """
     doc = fitz.open(pdf_path)
     return "\n".join([page.get_text() for page in doc])
 
-# Diviser le texte en morceaux
-def chunk_text(text, max_chars=1000):
+def chunk_text(text: str, max_chars: int = 1000) -> List[str]:
+    """
+    Split text into chunks of specified maximum length.
+
+    Args:
+        text (str): The text to be chunked
+        max_chars (int, optional): Maximum characters per chunk. Defaults to 1000.
+
+    Returns:
+        List[str]: List of text chunks
+    """
     return [text[i:i+max_chars] for i in range(0, len(text), max_chars)]
 
-# Construire l'index RAG
-def build_index():
+def build_index() -> None:
+    """
+    Build and save the FAISS search index and text chunks.
+
+    This function:
+    1. Reads the PDF documentation
+    2. Splits it into chunks
+    3. Generates embeddings for each chunk
+    4. Creates a FAISS L2 index from the embeddings
+    5. Saves both the index and original chunks to disk
+
+    The resulting files (rag_index.pkl and rag_chunks.pkl) are used by
+    the RAG system to find relevant context for quiz generation.
+    """
     pdf_path = os.path.join("backend", "data.pdf")
     text = extract_text_from_pdf(pdf_path)
     chunks = chunk_text(text)
