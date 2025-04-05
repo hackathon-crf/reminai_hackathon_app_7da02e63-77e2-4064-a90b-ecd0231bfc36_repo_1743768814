@@ -1,0 +1,17 @@
+# Client environment file for ForgeAI client containers
+OPENAI_API_KEY=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
+OPENAI_KEY=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
+POSTGRES_USER=forgeai
+POSTGRES_PASSWORD=forgeai_password
+POSTGRES_DB=forgeai_db
+POSTGRES_DB_URL=postgresql://forgeai:forgeai_password@db:5432/forgeai_db
+SERVER_IP=4.231.104.105
+DOMAIN_NAME=hackathon-ia-et-crise.fr
+SSL_ENABLED=true
+SSL=true
+RAG_PORT='50012'
+BACKEND_PORT='10150'
+ROOT_PATH='/reminai/hackathon_app'
+None
+None
+None

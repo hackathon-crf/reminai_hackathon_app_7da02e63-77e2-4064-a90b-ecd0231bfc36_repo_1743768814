@@ -1,0 +1,35 @@
+INFO:     Will watch for changes in these directories: ['/root/ForgeAI_RAG/Applications/hackathon_app']
+INFO:     Uvicorn running on http://0.0.0.0:10150 (Press CTRL+C to quit)
+INFO:     Started reloader process [2506] using WatchFiles
+Successfully imported pysqlite3 version: unknown
+Starting server on port 10150
+Using root_path: /reminai/hackathon_app
+INFO:     Started server process [2519]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'frontend/main.py', 'frontend/middleware.py', 'backend/app/services/quiz_generator.py', 'main_back.py', 'backend/main_back.py', 'backend/app/services.py', 'backend/utils.py', 'settings/config.py', 'backend/pdf_to_quiz_mistral.py', 'backend/app/routes.py', 'backend/app/__init__.py', 'backend/build_rag_index.py', 'frontend/dashboard.py', 'frontend/auth.py', 'backend/database.py', 'backend/app/back_utils.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2519]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/local/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/local/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/local/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/local/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/local/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/local/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/local/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/root/ForgeAI_RAG/Applications/hackathon_app/main_back.py", line 4, in <module>
+    import backend.app.routes as appp_router
+  File "/root/ForgeAI_RAG/Applications/hackathon_app/backend/app/routes.py", line 9, in <module>
+    from backend.app.services import query_rag
+ImportError: cannot import name 'query_rag' from 'backend.app.services' (/root/ForgeAI_RAG/Applications/hackathon_app/backend/app/services/__init__.py)
