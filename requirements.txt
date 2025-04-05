@@ -6,3 +6,6 @@ requests
 httpx
 pydantic
 fitz
+tools
+faiss-cpu
+sentence_transformers
