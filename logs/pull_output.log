@@ -1,0 +1,24 @@
+From https://github.com/hackathon-crf/reminai_hackathon_app_7da02e63-77e2-4064-a90b-ecd0231bfc36_repo_1743768814
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+ForgeAI Services Restart Script
+================================
+Restarting services for application: hackathon_app
+Frontend port: 10149
+Backend port: 10150
+Stopping existing processes...
+Killing frontend processes on port 10149: 2507
+Killing frontend PID: 2507
+Killing backend processes on port 10150: 2506
+Killing backend PID: 2506
+Starting backend...
+Installing requirements...
+Using backend file: main_back.py
+Setting root_path to: /reminai/hackathon_app
+Backend started with PID: 10937
+Starting frontend...
+Using frontend file: main_front.py
+Using path-based URL: reminai/hackathon_app
+Frontend started with PID: 10938
+Services restarted successfully!
+================================

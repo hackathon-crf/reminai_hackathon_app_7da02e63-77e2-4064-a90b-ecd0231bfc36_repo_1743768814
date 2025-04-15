@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/root/ForgeAI_RAG/Applications/hackathon_app/main_back.py", line 4, in <module>
+    import backend.app.routes as appp_router
+  File "/root/ForgeAI_RAG/Applications/hackathon_app/backend/app/routes.py", line 9, in <module>
+    from backend.app.services import query_rag
+ImportError: cannot import name 'query_rag' from 'backend.app.services' (/root/ForgeAI_RAG/Applications/hackathon_app/backend/app/services/__init__.py)

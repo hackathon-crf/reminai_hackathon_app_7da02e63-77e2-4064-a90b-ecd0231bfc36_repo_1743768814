@@ -949,5 +949,222 @@
             }
         ],
         "timestamp": "2025-04-05T11:06:39.993636"
+    },
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Vous êtes face à une personne qui présente un malaise. Elle est consciente mais semble désorientée. Vous suspectez une hypoglycémie. Que faites-vous en premier ?",
+                "choices": [
+                    "A) Vous lui donnez immédiatement de l'eau à boire.",
+                    "B) Vous lui proposez de s'allonger sur le côté gauche.",
+                    "C) Vous lui donnez du sucre si elle est capable d'avaler.",
+                    "D) Vous lui administrez un médicament sans vérifier si elle en a un prescrit."
+                ],
+                "user_answer": "B) Vous lui proposez de s'allonger sur le côté gauche.",
+                "correct_answer": "C) Vous lui donnez du sucre si elle est capable d'avaler."
+            },
+            {
+                "question": "Vous intervenez auprès d'une victime qui a inhalé des vapeurs toxiques dans un environnement confiné. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Faire vomir la victime pour éliminer les toxines.",
+                    "B) Administrer immédiatement de l'eau à la victime.",
+                    "C) Se protéger du toxique en restant à distance et aérer le local.",
+                    "D) Faire boire de l'eau à la victime pour diluer les toxines."
+                ],
+                "user_answer": "D) Faire boire de l'eau à la victime pour diluer les toxines.",
+                "correct_answer": "C) Se protéger du toxique en restant à distance et aérer le local."
+            },
+            {
+                "question": "En cas d'hémorragie externe importante chez un élève à l'école, que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Appliquer immédiatement un garrot sur le membre comprimé.",
+                    "B) Dégager la victime de toute source de danger.",
+                    "C) Demander à la victime de s'allonger sur le côté gauche.",
+                    "D) Refroidir la victime avec un bain d’eau froide."
+                ],
+                "user_answer": "A) Appliquer immédiatement un garrot sur le membre comprimé.",
+                "correct_answer": "B) Dégager la victime de toute source de danger."
+            }
+        ],
+        "timestamp": "2025-04-07T08:06:52.336157"
+    },
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Vous êtes face à une personne qui présente un malaise. Elle est consciente mais semble désorientée. Vous suspectez une hypoglycémie. Que faites-vous en premier ?",
+                "choices": [
+                    "A) Vous lui donnez immédiatement de l'eau à boire.",
+                    "B) Vous lui proposez de s'allonger sur le côté gauche.",
+                    "C) Vous lui donnez du sucre si elle est capable d'avaler.",
+                    "D) Vous lui administrez un médicament sans vérifier si elle en a un prescrit."
+                ],
+                "user_answer": "B) Vous lui proposez de s'allonger sur le côté gauche.",
+                "correct_answer": "C) Vous lui donnez du sucre si elle est capable d'avaler."
+            },
+            {
+                "question": "Vous intervenez auprès d'une victime qui a inhalé des vapeurs toxiques dans un environnement confiné. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Faire vomir la victime pour éliminer les toxines.",
+                    "B) Administrer immédiatement de l'eau à la victime.",
+                    "C) Se protéger du toxique en restant à distance et aérer le local.",
+                    "D) Faire boire de l'eau à la victime pour diluer les toxines."
+                ],
+                "user_answer": "D) Faire boire de l'eau à la victime pour diluer les toxines.",
+                "correct_answer": "C) Se protéger du toxique en restant à distance et aérer le local."
+            },
+            {
+                "question": "En cas d'hémorragie externe importante chez un élève à l'école, que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Appliquer immédiatement un garrot sur le membre comprimé.",
+                    "B) Dégager la victime de toute source de danger.",
+                    "C) Demander à la victime de s'allonger sur le côté gauche.",
+                    "D) Refroidir la victime avec un bain d’eau froide."
+                ],
+                "user_answer": "A) Appliquer immédiatement un garrot sur le membre comprimé.",
+                "correct_answer": "B) Dégager la victime de toute source de danger."
+            }
+        ],
+        "timestamp": "2025-04-07T08:07:01.303842"
+    },
+    {
+        "level": "Débutant",
+        "score": 0,
+        "total": 3,
+        "answers": [
+            {
+                "question": "Vous êtes face à une victime qui présente une obstruction complète des voies aériennes par un corps étranger. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Donner des claques dans le dos de la victime.",
+                    "B) Effectuer des compressions abdominales (manœuvre de Heimlich).",
+                    "C) Allonger la victime sur le côté.",
+                    "D) Appeler immédiatement les secours."
+                ],
+                "user_answer": "A) Donner des claques dans le dos de la victime.",
+                "correct_answer": "B) Effectuer des compressions abdominales (manœuvre de Heimlich)."
+            },
+            {
+                "question": "Vous êtes face à une victime qui présente une plaie ouverte au niveau du bras. Quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot immédiatement.",
+                    "B) Nettoyer la plaie avec du sérum physiologique ou à défaut à l’eau.",
+                    "C) Retirer tout corps étranger visible dans la plaie.",
+                    "D) Installer la victime en position d’attente.",
+                    "A) Appliquer un garrot immédiatement.",
+                    "B) Nettoyer la plaie avec du sérum physiologique ou à défaut à l’eau.",
+                    "C) Retirer tout corps étranger visible dans la plaie.",
+                    "D) Installer la victime en position d’attente."
+                ],
+                "user_answer": "A) Appliquer un garrot immédiatement.",
+                "correct_answer": "B) Nettoyer la plaie avec du sérum physiologique ou à défaut à l’eau."
+            },
+            {
+                "question": "En cas d'hémorragie externe non accessible, que devez-vous faire si la durée de la compression est supérieure à 4 heures ?",
+                "choices": [
+                    "A) Continuer la compression manuelle jusqu'à l'arrivée des secours.",
+                    "B) Utiliser un garrot sur le membre comprimé.",
+                    "C) Appliquer une compresse stérile sur la plaie.",
+                    "D) Demander à la victime de bouger le membre pour améliorer la circulation."
+                ],
+                "user_answer": "C) Appliquer une compresse stérile sur la plaie.",
+                "correct_answer": "B) Utiliser un garrot sur le membre comprimé."
+            }
+        ],
+        "timestamp": "2025-04-07T08:08:45.057736"
+    },
+    {
+        "level": "Débutant",
+        "score": 2,
+        "total": 3,
+        "answers": [
+            {
+                "question": "**Question :** Que devez-vous faire en premier pour aider cet élève ?",
+                "choices": [
+                    "A) Continuer la compression directe pendant encore 1 heure.",
+                    "B) Appliquer un garrot sur le membre comprimé.",
+                    "C) Demander à l'élève de se lever et de marcher pour vérifier si l'hémorragie s'arrête.",
+                    "D) Appliquer un pansement stérile sur la plaie et attendre les secours."
+                ],
+                "user_answer": "D) Appliquer un pansement stérile sur la plaie et attendre les secours.",
+                "correct_answer": "B) Appliquer un garrot sur le membre comprimé."
+            },
+            {
+                "question": "Vous êtes face à une personne qui présente un malaise. Elle est consciente mais semble faible. Vous suspectez une hypoglycémie. Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Lui donner immédiatement un verre d'eau.",
+                    "B) Lui administrer du sucre si elle est capable d'avaler.",
+                    "C) L'allonger sur le côté droit.",
+                    "D) Lui demander de marcher pour stimuler la circulation.",
+                    "A) Lui donner immédiatement un verre d'eau.",
+                    "B) Lui administrer du sucre si elle est capable d'avaler.",
+                    "C) L'allonger sur le côté droit.",
+                    "D) Lui demander de marcher pour stimuler la circulation."
+                ],
+                "user_answer": "B) Lui administrer du sucre si elle est capable d'avaler.",
+                "correct_answer": "B) Lui administrer du sucre si elle est capable d'avaler."
+            },
+            {
+                "question": "En cas de violence où une victime présente une obstruction complète des voies aériennes par un corps étranger, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Desserrer et enlever rapidement toute source de constriction du cou.",
+                    "C) Allonger la victime au sol et stabiliser le rachis cervical.",
+                    "D) Immobiliser immédiatement la victime sur le côté."
+                ],
+                "user_answer": "B) Desserrer et enlever rapidement toute source de constriction du cou.",
+                "correct_answer": "B) Desserrer et enlever rapidement toute source de constriction du cou."
+            }
+        ],
+        "timestamp": "2025-04-07T21:04:45.705879"
+    },
+    {
+        "level": "Débutant",
+        "score": 2,
+        "total": 3,
+        "answers": [
+            {
+                "question": "**Question :** Que devez-vous faire en premier pour aider cet élève ?",
+                "choices": [
+                    "A) Continuer la compression directe pendant encore 1 heure.",
+                    "B) Appliquer un garrot sur le membre comprimé.",
+                    "C) Demander à l'élève de se lever et de marcher pour vérifier si l'hémorragie s'arrête.",
+                    "D) Appliquer un pansement stérile sur la plaie et attendre les secours."
+                ],
+                "user_answer": "D) Appliquer un pansement stérile sur la plaie et attendre les secours.",
+                "correct_answer": "B) Appliquer un garrot sur le membre comprimé."
+            },
+            {
+                "question": "Vous êtes face à une personne qui présente un malaise. Elle est consciente mais semble faible. Vous suspectez une hypoglycémie. Que devez-vous faire en premier ?",
+                "choices": [
+                    "A) Lui donner immédiatement un verre d'eau.",
+                    "B) Lui administrer du sucre si elle est capable d'avaler.",
+                    "C) L'allonger sur le côté droit.",
+                    "D) Lui demander de marcher pour stimuler la circulation.",
+                    "A) Lui donner immédiatement un verre d'eau.",
+                    "B) Lui administrer du sucre si elle est capable d'avaler.",
+                    "C) L'allonger sur le côté droit.",
+                    "D) Lui demander de marcher pour stimuler la circulation."
+                ],
+                "user_answer": "B) Lui administrer du sucre si elle est capable d'avaler.",
+                "correct_answer": "B) Lui administrer du sucre si elle est capable d'avaler."
+            },
+            {
+                "question": "En cas de violence où une victime présente une obstruction complète des voies aériennes par un corps étranger, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Desserrer et enlever rapidement toute source de constriction du cou.",
+                    "C) Allonger la victime au sol et stabiliser le rachis cervical.",
+                    "D) Immobiliser immédiatement la victime sur le côté."
+                ],
+                "user_answer": "B) Desserrer et enlever rapidement toute source de constriction du cou.",
+                "correct_answer": "B) Desserrer et enlever rapidement toute source de constriction du cou."
+            }
+        ],
+        "timestamp": "2025-04-07T21:04:51.626014"
     }
 ]
