@@ -949,5 +949,46 @@
             }
         ],
         "timestamp": "2025-04-05T11:06:39.993636"
+    },
+    {
+        "level": "Intermédiaire",
+        "score": 1,
+        "total": 3,
+        "answers": [
+            {
+                "question": "En cas de noyade, après avoir dégagé la victime de l'eau, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Mettre la victime en position latérale de sécurité.",
+                    "C) Commencer immédiatement la réanimation cardio-pulmonaire (RCP).",
+                    "D) Allonger la victime et la couvrir avec une couverture pour éviter l'hypothermie."
+                ],
+                "user_answer": "C) Commencer immédiatement la réanimation cardio-pulmonaire (RCP).",
+                "correct_answer": "C) Commencer immédiatement la réanimation cardio-pulmonaire (RCP)."
+            },
+            {
+                "question": "En cas de noyade, après avoir dégagé la victime de l'eau, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Appliquer un garrot sur le membre comprimé.",
+                    "B) Réaliser une réanimation cardio-pulmonaire (RCP) si la victime ne respire pas.",
+                    "C) Placer la victime en position latérale de sécurité.",
+                    "D) Refroidir la victime avec un bain d’eau froide."
+                ],
+                "user_answer": "C) Placer la victime en position latérale de sécurité.",
+                "correct_answer": "B) Réaliser une réanimation cardio-pulmonaire (RCP) si la victime ne respire pas."
+            },
+            {
+                "question": "En cas de coup de chaleur chez un élève en milieu scolaire, quelle est la première action à entreprendre ?",
+                "choices": [
+                    "A) Administrer immédiatement des médicaments contre la fièvre.",
+                    "B) Installer la victime dans un endroit tempéré et la refroidir.",
+                    "C) Donner à boire de l'eau glacée à la victime.",
+                    "D) Masser vigoureusement les membres de la victime pour stimuler la circulation."
+                ],
+                "user_answer": "C) Donner à boire de l'eau glacée à la victime.",
+                "correct_answer": "B) Installer la victime dans un endroit tempéré et la refroidir."
+            }
+        ],
+        "timestamp": "2025-04-15T13:22:19.656929"
     }
 ]
